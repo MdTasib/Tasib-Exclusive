@@ -1,69 +1,70 @@
 .t-row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    &--block {
-        @mixin laptop {
-            display: block;
-        }
-    }
-    &__2 {
-        flex-basis: 16.66%;
-        @mixin laptop {
-            flex-basis: 50%;
-            margin: 15px 0px;
-        }
-        @mixin portraitIpad {
-            flex-basis: 100%;
-            margin: 15px;
-        }
-    }
-    &__2-5 {
-        flex-basis: 20%;
-    }
-    &__3 {
-        flex-basis: 24%;
-    }
-    &__4 {
-        flex-basis: 33.33%;
-        @mixin laptop {
-            flex-basis: 50%;
-        }
-    }
-    &__5 {
-        flex-basis: 41.65%;
-    }
-    &__6 {
-        flex-basis: 49.5%;
-        @mixin laptop {
-            flex-basis: 100%;
-        }
-    }
-    &__7 {
-        flex-basis: 58.31%;
-    }
-    &__8 {
-        flex-basis: 66.64%;
-    }
-    &__9 {
-        flex-basis: 74.97%;
-    }
-    &__10 {
-        flex-basis: 83.3%;
-    }
-    &__11 {
-        flex-basis: 91.63%;
-    }
-    &__12 {
-        flex-basis: 100%;
-    }
-    &--column-fm {
-        flex-direction: row;
-        @mixin portraitIpad {
-            flex-direction: column;
-        }
-    }
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	&--block {
+		@mixin laptop {
+			display: block;
+		}
+	}
+	&__2 {
+		flex-basis: 16.66%;
+		@mixin laptop {
+			flex-basis: 50%;
+			margin: 15px 0px;
+		}
+		@mixin portraitIpad {
+			flex-basis: 100%;
+			margin: 15px;
+		}
+	}
+	&__2-5 {
+		flex-basis: 20%;
+	}
+	&__3 {
+		flex-basis: 24%;
+	}
+	&__4 {
+		flex-basis: 33.33%;
+		@mixin laptop {
+			flex-basis: 50%;
+		}
+	}
+	&__5 {
+		flex-basis: 41.65%;
+	}
+	&__6 {
+		flex-basis: 48.5%;
+		@mixin laptop {
+			margin: 20px;
+			flex-basis: 100%;
+		}
+	}
+	&__7 {
+		flex-basis: 58.31%;
+	}
+	&__8 {
+		flex-basis: 66.64%;
+	}
+	&__9 {
+		flex-basis: 74.97%;
+	}
+	&__10 {
+		flex-basis: 83.3%;
+	}
+	&__11 {
+		flex-basis: 91.63%;
+	}
+	&__12 {
+		flex-basis: 100%;
+	}
+	&--column-fm {
+		flex-direction: row;
+		@mixin portraitIpad {
+			flex-direction: column;
+		}
+	}
 }
 .no-wrap {
-    flex-wrap: nowrap;
+	flex-wrap: nowrap;
 }

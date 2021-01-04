@@ -1,0 +1,37 @@
+.experiences {
+	h3 {
+		text-transform: capitalize;
+	}
+	&-one {
+		transition: 0.5s;
+		border-left: 5px solid cyan;
+		h3 {
+			background: -webkit-linear-gradient(45deg, #00e4ef, #1e00c2);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&:hover {
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+	}
+	&-two {
+		transition: 0.5s;
+		border-left: 5px solid tomato;
+		h3 {
+			background: -webkit-linear-gradient(45deg, #ffa115, #ff0052);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&:hover {
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+	}
+}
+.box-shadow {
+	padding: 35px;
+	background: #f8faff;
+	box-shadow: 10px 15px 15px #6748cd26;
+	border-radius: 0px 50px 0px 50px;
+}
