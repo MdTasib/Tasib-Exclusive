@@ -1,0 +1,27 @@
+/* only max width 1024px */
+@define-mixin desktop {
+    @media (max-width: 1024px) {
+        @mixin-content;
+    }
+}
+
+/* only max width 980px */
+@define-mixin laptop {
+    @media (max-width: 980px) {
+        @mixin-content;
+    }
+}
+
+/* only max width  768px */
+@define-mixin ipad {
+    @media (max-width: 768px) {
+        @mixin-content;
+    }
+}
+
+/* only max width portrait-ipad */
+@define-mixin portraitIpad {
+    @media (max-width: 680px) {
+        @mixin-content;
+    }
+}

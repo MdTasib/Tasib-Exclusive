@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    line-height: 26px;
+    font-family: sans-serif;
+}
+img {
+    max-width: 100%;
+}
+span {
+    display: inline-block;
+}
+/* Google font family
+/* <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab:wght@500;600;700;800;900&display=swap" rel="stylesheet">*/
+font-family: 'Fredoka One', cursive;
+font-family: 'Roboto Slab', serif;

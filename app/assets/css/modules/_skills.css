@@ -1,0 +1,29 @@
+.statistics_area {
+	.t-row__2 {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+.statistics_item {
+	box-shadow: 8px 9px 13px #6748cd26;
+    background: #f8faff;
+    padding: 30px 17px;
+    border-radius: 0px 50px 0px 50px;
+    &:hover {
+    	transform: scale(1.1);
+    	background: #9dfff6;
+    }
+    h3 {
+    	margin-bottom: 15px;
+    	font-size: 35px;
+    	font-family: 'Fredoka One', cursive;
+    	font-weight: normal;
+    	&:hover {
+    		background-position: right center;
+    	}
+    }
+    p {
+    	font-weight: 900;
+    	font-family: 'Roboto Slab', serif;
+    }
+}

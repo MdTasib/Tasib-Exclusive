@@ -1,0 +1,16 @@
+.headline {
+	color: #1345e6;
+	font-size: 35px;
+	font-family: 'Roboto Slab', serif;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+	line-height: 45px;
+	letter-spacing: 2px;
+}
+.pera {
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: $black;
+}

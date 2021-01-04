@@ -1,0 +1,19 @@
+.border {
+	p.border-after {
+		position: relative;
+	}
+	p.border-after:before {
+		content: '';
+		position: absolute;
+		width: 18%;
+		height: 3px;
+		background: linear-gradient(to right, #1345e6 0, #ed239f 51%, #1345e6 100%);
+		bottom: -8px;
+		left: 0;
+	}
+}
+.services {
+	p.border-after:before {
+		width: 12%;
+	}
+}

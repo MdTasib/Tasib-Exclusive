@@ -1,0 +1,60 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,button {
+    font-family: 'Roboto Slab', serif;
+}
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.t-btn,.h-social-icons a, .statistics_item, .services-item{
+    transition: .5s;
+}
+.t-btn,.h-social-icons a, .statistics_item, .services-item:hover {
+    transition: .5s;
+}
+.text-right {
+    text-align: right;
+    &--fm {
+        @mixin laptop {
+            text-align: right;
+        }
+    }
+}
+.text-left {
+    text-align: left;
+        @mixin laptop {
+            text-align: left;
+        }
+}
+.align-menu {
+    text-align: right;
+    @mixin laptop {
+        text-align: left;
+    }
+}
+.text-center {
+    text-align: center;
+}
+.text-uper {
+    text-transform: uppercase;
+}
+.text-capital {
+    text-transform: capitalize;
+}
+.text-cfl {
+    @mixin laptop {
+        text-align: center;
+    }
+}
+.no-mar {
+    margin: 0;
+}
+.no-pad {
+    padding: 0;
+}

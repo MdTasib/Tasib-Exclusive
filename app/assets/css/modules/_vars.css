@@ -1,0 +1,18 @@
+/* color */
+.gradient-color {
+    background: linear-gradient(to right, #1345e6 0, #ed239f 51%, #1345e6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+$black: #000000;
+$aqua: #00ffff;
+$active: #0301b6;
+$gray: #808080;
+$offblue: #05364d;
+$blue: #1345e6;
+$cyan: #17a2b8;
+$indigo: #6610f2;
+$danger: #dc3545;
+$primary: #007bff;
+$red: #dc3545;
+$activebg: #f8faff;

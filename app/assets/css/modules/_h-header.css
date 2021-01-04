@@ -1,0 +1,108 @@
+.logo-header-f {
+    font-family: 'Roboto Slab', serif;
+    color: $black;
+    line-height: 80px;
+}
+.logo-header-x {
+    font-size: 34px;
+    color: $active;
+
+}
+.navbar {
+    ul {
+        list-style: none;
+        .active-item {
+            a:before {
+                content: '';
+                height: 3px;
+                background: linear-gradient(to right, #1345e6 0, #ed239f 51%, #1345e6 100%);
+                width: 100%;
+                bottom: 0;
+            } 
+        }
+    }
+    ul li {
+        display: inline-block;
+        padding: 10px 13px;
+        @mixin laptop {
+            display: block;
+        }
+    }
+    ul li a {
+        position: relative;
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: 'Roboto Slab', serif;
+        color: $active;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 10px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: linear-gradient(to right, #1345e6 0, #ed239f 51%, #1345e6 100%);
+            bottom: 0;
+            left: 0;
+            transition: .5s;
+        }
+        &:hover:before {
+            width: 100%;
+            transition: .5s;
+        }
+    }
+}
+.header-inner {
+    &__content {
+        h4 {
+            color: $gray;
+        }
+        h2 {
+            color: $offblue;
+            font-size: 2em;
+            line-height: 50px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+        }
+        h5 {
+            font-size: 1.5em;
+            font-family: 'Roboto Slab';
+            font-weight: 800;
+            line-height: 45px;
+        }
+    }
+    &__image {
+        padding-top: 1.5em;
+    }
+}
+.h-social-icons {
+    margin-top: 1em;
+    a {
+        color: $gray;
+        &:hover {
+            &:nth-child(1) {
+                color: $blue;
+            }
+            &:nth-child(2) {
+                color: $cyan;
+            }
+            &:nth-child(3) {
+                color: $indigo;
+            }
+            &:nth-child(4) {
+                color: $primary;
+            }
+            &:nth-child(5) {
+                color: $red;
+            }
+            &:nth-child(6) {
+                color: $danger;
+            }
+        }
+    }
+    i {
+        padding: 15px 10px;
+        font-size: 28px;
+    }
+}

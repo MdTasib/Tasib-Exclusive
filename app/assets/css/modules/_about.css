@@ -1,0 +1,15 @@
+.about-us {
+	.about-content {
+		@mixin laptop {
+			margin-top: 4em;
+		}
+	}
+	.about-banner img {
+	    transform: scale(0.8);
+	    margin-left: 7em;
+	    @mixin laptop {
+	    	margin-left: 2em;
+	    }
+	    border-bottom: 2px solid #fcf3ff;
+	}
+}

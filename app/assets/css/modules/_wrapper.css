@@ -1,0 +1,15 @@
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 30px;
+    @mixin desktop {
+         padding: 0px 25px;
+    }
+    &--small-fm {
+        max-width: 500px;
+        @mixin portraitIpad {
+            max-width: 1170px;
+        }
+    }
+}

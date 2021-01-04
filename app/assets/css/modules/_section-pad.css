@@ -1,0 +1,8 @@
+.section-pad {
+    &__big {
+        padding: 4em 0em;
+    }
+    &__small {
+    	padding: 2.5em 0em;
+    }
+}
