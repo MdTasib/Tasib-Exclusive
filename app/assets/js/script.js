@@ -1,15 +1,15 @@
-// typed design function
-// var typed = new Typed(".typed", {
-//     strings: [
-//         "WEB DESIGNE",
-//         "WORDPRESS DEVELOPER",
-//         "WOOCOMMERCE SPECIALIST",
-//         "WORDPRESS THEME CUSTOMIZER"
-//     ],
-//     typeSpeed: 150,
-//     backSpeed: 150,
-//     loop: true
-// });
+typed design function
+var typed = new Typed(".typed", {
+    strings: [
+        "WEB DESIGNE",
+        "WORDPRESS DEVELOPER",
+        "WOOCOMMERCE SPECIALIST",
+        "WORDPRESS THEME CUSTOMIZER"
+    ],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+});
 // initialize counterup 
 if ($('span').hasClass('counter')) {
     $('.counter').counterUp({
