@@ -1,4 +1,4 @@
-typed design function
+//typed design function
 var typed = new Typed(".typed", {
     strings: [
         "WEB DESIGNE",
