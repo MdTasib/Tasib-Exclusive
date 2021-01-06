@@ -1161,3 +1161,8 @@ p {
 .footer-area-media .h-social-icons a:nth-child(6) {
   color: #dc3545;
 }
+
+footer .footer-area-text p {
+  color: #fff;
+  font-size: 17px;
+}
