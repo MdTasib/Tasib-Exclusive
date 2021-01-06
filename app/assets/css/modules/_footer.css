@@ -1,0 +1,41 @@
+.footer {
+    background: black;
+    &-area {
+        &-menu {
+            .main-menu {
+                .navbar > ul li a{
+                    color: #fff;
+                }
+            }
+        }
+    &-media {
+        .h-social-icons {
+            a {
+                transition: .5s;
+                &:hover {
+                    transition: .5s;
+                    transform: scale(1.5);
+                }
+                &:nth-child(1) {
+                    color: $blue;
+                }
+                &:nth-child(2) {
+                    color: $cyan;
+                }
+                &:nth-child(3) {
+                    color: $indigo;
+                }
+                &:nth-child(4) {
+                    color: $primary;
+                }
+                &:nth-child(5) {
+                    color: red;
+                }
+                &:nth-child(6) {
+                    color: $danger;
+                }
+            }
+        }
+    }
+    }
+}

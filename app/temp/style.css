@@ -1120,3 +1120,44 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.footer {
+  background: black;
+}
+
+.footer-area-menu .main-menu .navbar > ul li a {
+  color: #fff;
+}
+
+.footer-area-media .h-social-icons a {
+  transition: .5s;
+}
+
+.footer-area-media .h-social-icons a:hover {
+  transition: .5s;
+  transform: scale(1.5);
+}
+
+.footer-area-media .h-social-icons a:nth-child(1) {
+  color: #1345e6;
+}
+
+.footer-area-media .h-social-icons a:nth-child(2) {
+  color: #17a2b8;
+}
+
+.footer-area-media .h-social-icons a:nth-child(3) {
+  color: #6610f2;
+}
+
+.footer-area-media .h-social-icons a:nth-child(4) {
+  color: #007bff;
+}
+
+.footer-area-media .h-social-icons a:nth-child(5) {
+  color: red;
+}
+
+.footer-area-media .h-social-icons a:nth-child(6) {
+  color: #dc3545;
+}
