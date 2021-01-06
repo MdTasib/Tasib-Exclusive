@@ -23,6 +23,13 @@
 	}
 	&__3 {
 		flex-basis: 24%;
+		@mixin laptop {
+			flex-basis: 50%;
+		}
+		@mixin portraitIpad {
+			flex-basis: 100%;
+			margin: 15px;
+		}
 	}
 	&__4 {
 		flex-basis: 33.33%;

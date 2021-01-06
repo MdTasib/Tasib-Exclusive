@@ -1,0 +1,25 @@
+.counter-area {
+    &-title {
+        p {
+            font-size: 18px;
+            text-transform: capitalize;
+            font-weight: bold;
+            color: $gray;
+        }
+    }
+    &-icon__single {
+        text-align: -webkit-center;
+        img {
+            width: 50%;
+            display: block;
+        }
+        span {
+            margin-top: 35px;
+            font-family: 'Fredoka One', cursive;
+            font-size: 34px;
+			background: -webkit-linear-gradient(45deg, #00e4ef, #1e00c2);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+        }
+    }
+}

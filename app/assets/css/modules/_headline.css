@@ -5,6 +5,7 @@
 	text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 	line-height: 45px;
 	letter-spacing: 2px;
+	text-transform: capitalize;
 }
 .pera {
 	font-size: 18px;
